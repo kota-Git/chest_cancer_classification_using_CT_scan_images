@@ -1,3 +1,5 @@
+# code added in setup.py
+
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
@@ -7,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "chest_cancer_classification_using_CT_scan_images"
-AUTHOR_USER_NAME = "kota lakshmanarao"
+AUTHOR_USER_NAME = "laxman"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "lakshmanteja9@gmail.com"
 

@@ -11,7 +11,7 @@ git push origin main
 
 # How to run?
 ```bash
-conda create -n chest python=3.8 -y
+conda create -n chest python=3.10 -y
 conda activate chest
 pip install -r requirements.txt
 

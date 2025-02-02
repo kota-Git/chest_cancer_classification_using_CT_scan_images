@@ -1,4 +1,4 @@
-tensorflow==2.12.0
+tensorflow==2.12.1
 pandas 
 gdown    # if you want to download anything from google drive , we can use gdown
 dvc
