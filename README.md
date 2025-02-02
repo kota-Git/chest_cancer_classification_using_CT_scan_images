@@ -31,3 +31,24 @@ python app.py
 8.Update the dvc.yaml
 
 ```
+
+# Mlflow dagshub connection uri
+```bash
+
+MLFLOW_TRACKING_URI=https://dagshub.com/kota-Git/ml_flow_experiment_demo.mlflow  \
+
+MLFLOW_TRACKING_USERNAME=kota-Git \
+
+MLFLOW_TRACKING_PASSWORD=4698bfa482941c91998d3f83ad2869f6b7ab60f9 \
+python script.py
+```
+
+# RUN from bash terminal
+```bash 
+export  MLFLOW_TRACKING_URI=https://dagshub.com/kota-Git/ml_flow_experiment_demo.mlflow  
+
+export  MLFLOW_TRACKING_USERNAME=kota-Git
+
+export  MLFLOW_TRACKING_PASSWORD=4698bfa482941c91998d3f83ad2869f6b7ab60f9
+
+```
