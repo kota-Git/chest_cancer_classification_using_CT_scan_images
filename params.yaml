@@ -1,1 +1,8 @@
-key: value # dummy values
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16               # #I'm running in cpu thatawhy i was given less batch size            
+INCLUDE_TOP: False
+EPOCHS: 1
+CLASSES: 2                  #  my target class has only 2 
+WEIGHTS: imagenet               # imagenet weights
+LEARNING_RATE: 0.01             # default learning rate
