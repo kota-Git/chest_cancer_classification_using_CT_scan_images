@@ -10,8 +10,12 @@ from sklearn.linear_model import ElasticNet
 from urllib.parse import urlparse
 import mlflow
 import mlflow.sklearn
-
 import logging
+import dagshub
+
+
+# dagshub.init(repo_owner='kota-Git', repo_name='ml_flow_experiment_demo', mlflow=True)
+
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
@@ -74,7 +78,7 @@ if __name__ == "__main__":
 
 
         # For remote server only (Dagshub)
-        remote_server_uri = "https://dagshub.com/entbappy/MLflow-Expriement-demo.mlflow"
+        remote_server_uri = "https://dagshub.com/kota-Git/ml_flow_experiment_demo.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
