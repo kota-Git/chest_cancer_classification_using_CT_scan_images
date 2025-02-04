@@ -23,7 +23,7 @@ python app.py
 # Mlflow dagshub connection uri
 ```bash
 
-MLFLOW_TRACKING_URI=https://dagshub.com/kota-Git/ml_flow_experiment_demo.mlflow  \
+MLFLOW_TRACKING_URI=https://dagshub.com/kota-Git/chest_cancer_classification_using_CT_scan_images.mlflow \
 
 MLFLOW_TRACKING_USERNAME=kota-Git \
 
@@ -33,7 +33,7 @@ python script.py
 
 # RUN from bash terminal
 ```bash 
-export  MLFLOW_TRACKING_URI=https://dagshub.com/kota-Git/ml_flow_experiment_demo.mlflow  
+export  MLFLOW_TRACKING_URI=https://dagshub.com/kota-Git/chest_cancer_classification_using_CT_scan_images.mlflow  
 
 export  MLFLOW_TRACKING_USERNAME=kota-Git
 
